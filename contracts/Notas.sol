@@ -11,7 +11,7 @@ pragma experimental ABIEncoderV2;
 // Marta  | 13579U |  3
 // Alba   | 98765Z |  5
 
-contract Notas {
+contract notas {
     // Direccion del profesor
     address public profesor;
 

@@ -1,4 +1,4 @@
-const Notas = artifacts.require("Notas");
+const Notas = artifacts.require("notas");
 
 module.exports = function (deployer) {
   deployer.deploy(Notas);
