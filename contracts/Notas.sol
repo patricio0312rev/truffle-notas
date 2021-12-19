@@ -24,7 +24,7 @@ contract notas {
     mapping(bytes32 => uint) Notas;
 
     // Mapping de los alumnos que pidan revisiones de un examen para una asignatura
-    mapping (string => string[]) revisiones;
+    mapping(string => string[]) revisiones;
 
     // Eventos
     event alumno_evaluado(bytes32, uint);
